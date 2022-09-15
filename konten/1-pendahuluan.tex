@@ -3,23 +3,62 @@
 \subsection{Latar Belakang}
 
 % Ubah paragraf-paragraf berikut sesuai dengan latar belakang dari tugas akhir
-Pesatnya perkembangan roket yang merupakan \lipsum[2]
+Helm merupakan sebuah alat pelindung yang berfungsi untuk melindungi kepala saat
+terjadi benturan. Pada sebuah penelitian didapatkan bahwa menggunakan Helm saat
+mengendarai sepeda motor, dapat mengurangi resiko cedera dari kecelakaan lalu lintas
+hingga 42\% \citep{helmetUse}. Berdasarkan data dari Badan Pusat Statistik (BPS), jumlah korban
+meninggal dalam kasus kecelakaan lalu lintas di Indonesia sebanyak 25.671 jiwa pada
+tahun 2019. Pertumbuhan jumlah korban jiwa setiap tahun terus bertambah dengan
+persentase hingga 1.41\% \citep{transportasi2019}. Tingginya jumlah korban meninggal dunia pada kecelakaan
+lalu lintas diikuti dengan tingginya jenis pelanggaran yang sering dilakukan salah satunya
+adalah tidak menggunakan helm oleh pengendara sepeda motor pada saat berkendara \citep{kecelakaan}.
 
-\lipsum[3]
+Salah satu penyebab dari tingginya angka kecelakaan pada pengendara sepeda motor adalah keterbatasan
+jumlah anggota polisi dalam memantau lalu-lintas sehingga sering terjadi kelalaian pemantauan dan penindakan
+pengendara sepeda motor yang tidak menggunakan helm. Oleh karena itu sistem deteksi penggunaan helm pada pengendara
+sepeda motor penting, dengan menggunakan teknologi untuk mendapatkan informasi pengendara sepeda motor yang tidak 
+menggunakan helm saat berkendara.
+
+Teknologi Visi Komputer adalah sebuah bidang kecerdasan buatan atau Artificial
+Intelligence (AI) yang melatih sebuah komputer agar dapat memahami sesuatu dari input
+visual. Teknologi Visi Komputer memanfaatkan input dari gambar digital menggunakan
+kamera dan jaringan neural atau Neural Network  untuk mengklasifikasikan objek
+kemudian dapat mendeteksi sesuatu yang ditangkap oleh komputer. Teknologi Visi
+Komputer saat ini sudah banyak diimplementasikan dalam berbagai bidang seperti
+administrasi, Kesehatan sampai dengan Transportasi.
 
 \subsection{Rumusan Masalah}
 
 % Ubah paragraf berikut sesuai dengan rumusan masalah dari tugas akhir
-Berdasarkan hal yang telah dipaparkan di latar belakang, \lipsum[4]
+Permasalahan yang dapat dirumuskan pada penelitian ini adalah yang pertama deteksi pengendara 
+Sepeda Motor yang tidak menggunakan helm saat berkendara tidak terdeteksi secara
+menyeluruh. Sehingga diperlukan sebuah sistem dengan performa yang baik untuk mendeteksi pengendara
+Sepeda Motor yang tidak menggunakan helm untuk dikembangkan dalam mendeteksi
+pelanggar yang tidak menggunakan helm.
 
 \subsection{Penelitian Terkait}
 
 % Ubah paragraf berikut sesuai dengan penelitian lain yang terkait dengan tugas akhir
-Beberapa penelitian terkait perhitungan \lipsum[5]
+Hanhe Lin et al dalam artikel penelitiannya yang berjudul \emph{"Helmet Use Detection of Tracked Motorcycles
+Using CNN-Based Multi-Task Learning"} pada tahun 2019 mengembangkan sebuah sistem pendeteksi helm
+pada pengendara sepeda motor yang berlokasi di beberapa kota negara Myanmar menggunakan metode RetinaNet yang merupakan
+sebuah metode \emph{single-stage} untuk mendeteksi sebuah objek. Dalam penilitian ini didapatkan
+\emph{mean Average Precision} sebesar 95.3\% \citep{hanhelin}.
 
-\lipsum[6]
+Yusuf Umar Hanafi dalam buku tugas akhirnya yang berjudul "Deteksi Penggunaan Helm pada Pengendara Bermotor Berbasis
+Deep Learning" pada tahun 2020 membuat sebuah sistem pendeteksi helm menggunakan metode \emph{You Look Only Once} (YOLO). Data input
+yang digunakan adalah rekaman video CCTV lalu lintas milik Dinas Perhubungan kota Surabaya. Pengujian dilakukan berdasarkan lokasi,
+kondisi, dan objek pelanggar. Pada pengujian ini didapatkan \emph{mean Average Precision} yang cukup baik untuk YOLOv3 \citep{masYusuf}.
+
 
 \subsection{Tujuan Penelitian}
 
 % Ubah paragraf berikut sesuai dengan tujuan penelitian dari tugas akhir
-Tujuan dari penelitian ini adalah \lipsum[7][1-14]
+Tujuan dari penelitian ini adalah:
+
+\begin{enumerate}[nolistsep]
+
+  \item Mengembangkan sistem deteksi penggunaan helm pada pengendara motor menggunakan metode YOLO.
+  \item Mengevaluasi performa dari metode YOLO dalam mendeteksi penggunaan helm pada pengendara sepeda motor.
+
+\end{enumerate}
